@@ -1,0 +1,22 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+*.lib
+*.ko
+
+# GoLand IDE
+.idea/
+
+# Go module specific
+/go.sum
+
+# Output files
+/dist/
+/bin/
