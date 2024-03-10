@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	format "github.com/eitanby/app-vision/do-format"
+	"github.com/eitanby/app-vision/math"
+)
 
 func main() {
-	x := []int{1, 2, 3, 4, 5}
-	for _, v := range x {
-		fmt.Printf("%p\n", &v)
-	}
+	num := math.Double(4)
+	output := format.Number(num)
+	fmt.Println(output)
 }
