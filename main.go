@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	format "github.com/eitanby/app-vision/do-format"
-	"github.com/eitanby/app-vision/math"
+	"github.com/eitanby/app-vision/internal/do-format"
+	"github.com/eitanby/app-vision/internal/math"
 )
 
 func main() {
